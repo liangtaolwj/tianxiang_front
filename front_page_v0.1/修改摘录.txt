@@ -1,0 +1,19 @@
+一.页面对应
+
+company_introduction <--> 公司介绍页面
+
+company_register  <--> 公司用户注册页面
+
+consult  <--> 咨询页面
+
+index  <--> 主页
+
+login <--> 登录页面
+
+order <--> 订购页面
+
+personal_register <--> 个人用户注册页面
+
+product  <--> 产品介绍页面
+
+二.我下载了bootstarp最新版本的库放在根目录下
