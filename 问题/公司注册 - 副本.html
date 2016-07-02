@@ -1,0 +1,247 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    <script language="javascript">
+      function check(){   
+                             window.alert("v1是");
+                            var name = document.getElementById("name");  
+                             if(name.value.length<4||name.value.length>6){
+                    		span1.innerText="用户名应在4-6位";
+                    		return false;
+                    	}
+    </script>
+  </head><body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="注册.css" rel="stylesheet" type="text/css">
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span>Brand</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">返回主页</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!---->
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="form-group">
+            <div class="col-md-3 text-center">&nbsp;</div>
+            <div class="col-md-2 text-center">
+              <a href="注册.html" class="btn btn-lg"><button type="button" class="btn btn-info btn-lg">个人注册</button></a>
+            </div>
+            <div class="col-md-1 text-center">&nbsp;</div>
+            <div class="col-md-2 text-center">&nbsp;</div>
+            <div class="col-md-2 text-center">
+              <a href="公司注册.html" class="btn btn-lg"><button type="button" class="btn btn-info btn-lg">公司注册</button></a>
+            </div>
+            <div class="col-md-2 text-center">&nbsp;</div>
+          </div>
+          <div class="col-md-12 text-center">&nbsp;</div>
+          <div width="100%" height="9000px">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">
+                  <span style="font-size:10px; color:red;">✲</span>公司名称</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="name" placeholder="请输入姓名" name="name">
+                </div>
+                <div class="col-sm-2">
+                  <span style="font-size:20px; color:red;" id="span1" name="span1"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">性别</label>
+                <div class="col-sm-6">
+                  <div>
+                    <label class="checkbox-inline">
+                      <input type="radio" name="optionsRadios" id="inlineCheckbox1" value="option1" checked="">男</label>
+                    <label class="checkbox-inline">
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">女</label>
+                  </div>
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">生日</label>
+                <div class="col-sm-6">
+                  <div class="col-sm-4">
+                    <select class="form-control">
+                      <option>年</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-4">
+                    <select class="form-control">
+                      <option value="">月</option>
+                      <option value="">1</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-4">
+                    <select class="form-control">
+                      <option value="">日</option>
+                      <option value="">1</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">主营业务</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="firstname" placeholder="请输入您的主营业务">
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">手机号码</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="firstname" placeholder="请输入手机号">
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">固定电话</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="firstname" placeholder="请输入固定电话">
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">微信账号</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="firstname" placeholder="请输入微信号">
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">QQ账号</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="firstname" placeholder="请输入微信号">
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">收货地址</label>
+                <div class="col-sm-6">
+                  <input type="text" class="form-control" id="firstname" placeholder="请输入收货地址">
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">详细地址</label>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <textarea class="form-control" rows="3" placeholder="请输入详细地址"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">设置密码</label>
+                <div class="col-sm-6">
+                  <input type="password" class="form-control" id="firstname" placeholder="请输入密码">
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">&nbsp;</div>
+                <label for="firstname" class="col-sm-2 control-label">确认密码</label>
+                <div class="col-sm-6">
+                  <input type="password" class="form-control" id="firstname" placeholder="请再次输入密码">
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-3">&nbsp;</div>
+                <div class="col-sm-6">
+                  <button type="button" class="btn btn-block btn-info btn-lg" onclick="return check()">提交</button>
+                </div>
+                <div class="col-sm-4">&nbsp;</div>
+              </div>
+              <div class="col-sm-4">&nbsp;</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <footer class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>护理专家工作室</h1>
+            <p></p>
+            <address>
+              <strong>中国</strong>
+              <br>南昌市 . 南昌大学.前湖校区
+              <br>
+              <abbr title="Phone">P:</abbr>8888-8888</address>
+            <p></p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-info text-right">
+              <br>
+              <br>
+            </p>
+            <div class="row">
+              <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 hidden-xs text-right">
+                <a href="#"><i class="fa fa-3x fa-envelope fa-fw text-info"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-weibo text-info"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-weixin text-info"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-whatsapp hub text-info"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+</body></html>
